@@ -22,7 +22,7 @@ export class DashboardPage{
     this.users = new User();
     this.afa.authState.subscribe(user =>{
         this.userid = user.uid;
-         this.username = user.displayName;
+        this.username = user.displayName;
         // console.log(this.userid);
         // console.log(this.username)
 
