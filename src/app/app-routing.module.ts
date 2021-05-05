@@ -30,6 +30,7 @@ const routes: Routes = [
     path: 'scale-pain/:id',
     loadChildren: () => import('./scale-pain/scale-pain.module').then( m => m.ScalePainPageModule)
   }
+
 ];
 @NgModule({
   imports: [
